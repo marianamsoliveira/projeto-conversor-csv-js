@@ -1,0 +1,130 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f2937;
+}
+
+/* Card principal */
+.conteudo {
+  background: #ffffff;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* Área principal */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "label-csv  label-json"
+    "csv        json";
+  gap: 12px 16px;
+}
+
+/* Labels */
+label[for="texto-csv"] {
+  grid-area: label-csv;
+}
+
+label[for="texto-json"] {
+  grid-area: label-json;
+}
+
+/* Textareas */
+#texto-csv {
+  grid-area: csv;
+}
+
+#texto-json {
+  grid-area: json;
+}
+
+
+/* Textareas */
+textarea {
+  width: 100%;
+  min-height: 220px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  resize: vertical;
+  background-color: #f9fafb;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* Botão */
+.botao {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+   main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "label-csv"
+      "csv"
+      "label-json"
+      "json";
+  }
+}
