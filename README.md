@@ -1,62 +1,46 @@
-📄 Conversor CSV para JSON
+# 📄 Conversor CSV para JSON
 
-Projeto prático desenvolvido com HTML, CSS e JavaScript puro, com o objetivo de transformar dados no formato CSV em um JSON válido e formatado, simulando um cenário comum no desenvolvimento de sistemas e na integração de dados.
+Projeto prático desenvolvido com **HTML, CSS e JavaScript puro**, com o objetivo de converter dados no formato CSV em um **JSON válido e formatado**, simulando um cenário comum no desenvolvimento de sistemas e integração de dados.
 
-A proposta do projeto é aplicar fundamentos da linguagem JavaScript na prática, indo além da teoria e resolvendo um problema real de forma simples e organizada.
+A proposta do projeto é aplicar fundamentos de JavaScript na prática, transformando exercícios de estudo em uma solução funcional e próxima de problemas reais.
 
-🚀 Funcionalidades
+---
 
-Leitura de dados em formato CSV
+## 🚀 Funcionalidades
 
-Interpretação dinâmica das colunas a partir do cabeçalho
+- Leitura de dados em formato CSV  
+- Interpretação dinâmica das colunas a partir do cabeçalho  
+- Conversão automática de valores numéricos e textuais  
+- Geração de JSON válido e formatado  
+- Validação do JSON antes da exibição  
+- Visualização lado a lado do CSV e do JSON  
 
-Conversão automática de valores numéricos e textuais
+---
 
-Geração de JSON válido e formatado
+## 🛠️ Tecnologias utilizadas
 
-Validação do JSON antes da exibição
+- **HTML5** — estrutura semântica da aplicação  
+- **CSS3** — layout moderno com Grid Layout e responsividade  
+- **JavaScript (Vanilla)** — lógica de conversão, manipulação de strings, arrays, objetos e DOM  
 
-Interface visual para comparação entre CSV e JSON
+Projeto desenvolvido **sem frameworks ou bibliotecas externas**, com foco total nos fundamentos.
 
-🛠️ Tecnologias utilizadas
+---
 
-HTML5 — estrutura semântica da aplicação
+## 📚 Aprendizados
 
-CSS3 — layout moderno com Grid Layout e responsividade
+Durante o desenvolvimento deste projeto, foram reforçados conceitos como:
 
-JavaScript (Vanilla) — lógica de conversão, manipulação de strings, arrays, objetos e DOM
+- Manipulação de strings e arrays  
+- Estruturação de objetos em JavaScript  
+- Organização de funções  
+- Conversão e validação de dados  
+- Boas práticas iniciais de código  
 
-O projeto foi desenvolvido sem bibliotecas ou frameworks, com foco total no entendimento dos fundamentos.
+---
 
-📚 Aprendizados
+## 🧪 Como executar o projeto
 
-Durante o desenvolvimento deste projeto, foram reforçados conceitos importantes como:
-
-Manipulação de strings e arrays
-
-Estruturação de objetos em JavaScript
-
-Organização de funções
-
-Conversão e validação de dados
-
-Boas práticas iniciais de código
-
-🧪 Como executar o projeto
-
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-
-Abra o arquivo index.html em um navegador
-
-Insira os dados em CSV no campo indicado
-
-Clique em Converter para JSON
-
-🎯 Objetivo do projeto
-
-Consolidar os fundamentos de JavaScript, HTML e CSS por meio de um projeto simples, funcional e próximo de situações reais enfrentadas no desenvolvimento de software.
-
-Este repositório faz parte do meu processo de aprendizado e evolução contínua na área de desenvolvimento.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
